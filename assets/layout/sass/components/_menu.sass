@@ -1,0 +1,51 @@
+.menu
+  background-color: #222
+  &__list
+    display: flex
+    gap: 1rem
+  &__item
+    position: relative
+    &:hover
+      .menu__dropdown
+        transform: scale(1)
+      .menu__link
+        color: #161616
+        background-color: #fff
+        border-bottom: 4px solid $primary
+  &__link
+    display: flex
+    align-items: center
+    gap: 1rem
+    padding: 2rem
+    font-size: 1.5rem
+    font-weight: 500
+    border-bottom: 4px solid transparent
+    color: #ccc
+  &__link--active
+    color: #161616
+    background-color: #fff
+    border-bottom: 4px solid $primary
+
+  &__dropdown
+    position: absolute
+    z-index: 10
+    top: 100%
+    left: 0
+    min-width: 20rem
+    background-color: #222
+    border-bottom: 4px solid $primary
+    transform: scale(0)
+    transition: transform .3s
+  &__dropdown--list
+  &__dropdown--item
+    padding: 1.5rem
+    &:not(:last-child)
+      border-bottom: 1px solid #444
+  &__dropdown--link
+    font-size: 1.6rem
+    display: flex
+    justify-content: space-between
+    align-items: center
+    color: #eee
+    &:hover
+      color: $primary

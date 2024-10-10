@@ -1,0 +1,95 @@
+.welcome
+  position: relative
+  &__overlay
+    position: relative
+    &::before
+      content: ""
+      position: absolute
+      inset: 0
+      background-color: rgba($black, .91)
+    img
+      width: 100%
+      height: 100%
+      object-fit: cover
+
+  &__box
+    display: grid
+    position: absolute
+    width: 100%
+    height: 100%
+    max-width: 120rem
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    grid-template-columns: repeat(4, 1fr)
+    grid-template-rows: repeat(2, 1fr)
+    gap: 4rem
+    padding-block: 4rem
+  &__grid--box--1
+    grid-column: 1 / 2
+    grid-row: 1 / 2
+  &__grid--box--2
+    grid-column: 1 / 2
+    grid-row: 2 / 3
+  &__grid--box--3
+    background-color: $primary
+    grid-column: 2 / 4
+    grid-row: 1 / 2
+  &__grid--box--4
+    background-color: $primary
+    grid-column: 2 / 4
+    grid-row: 2 / 3
+  &__grid--box--5
+    grid-column: 4 / 5
+    grid-row: 1 / 2
+  &__grid--box--6
+    grid-column: 4 / 5
+    grid-row: 2 / 3
+  &__grid--box
+    border-bottom: 6px solid transparent
+    cursor: pointer
+    position: relative
+    transition: transform .6s
+    &:hover
+      border-bottom-color: $primary
+      transform: translateY(-2rem)
+    &::before
+      content: ""
+      position: absolute
+      width: 100%
+      height: 100%
+      background-image: linear-gradient(to top, rgba($black, .8), rgba($black, 0))
+  &__grid--img
+    width: 100%
+    height: 100%
+    object-fit: cover
+
+  &__grid--info
+    position: absolute
+    width: 90%
+    bottom: 0
+    left: 5%
+    color: #fff
+    &--tag
+      background-color: $primary
+      padding: 6px 12px
+      width: max-content
+      font-size: 1.8rem
+      font-weight: 600
+      transform: skewX(-7deg)
+      margin-bottom: 2rem
+    &--title
+      font-size: 2.2rem
+      margin-bottom: 3rem
+    &--text
+      margin-bottom: 3rem
+      font-size: 1.4rem
+    &--other
+      color: #ddd
+      margin-bottom: 2rem
+      font-size: 1.3rem
+      display: flex
+      align-items: center
+      justify-content: space-between
+    &--date
+    &--comments

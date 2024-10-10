@@ -1,0 +1,47 @@
+@mixin flex($align, $justify, $gap: 0)
+  display: flex
+  align-items: $align
+  justify-content: $justify
+  gap: #{$gap}rem
+
+
+// Phone: 0 - 600px
+// Tablet Portrait: 600px - 900px   
+// Tablet Landscape: 900px - 1200px   
+// Desktops: 1800px+   
+
+@mixin respond($screen)
+  @if $screen == phone
+    @media only screen and (max-width: 37.5em)
+      @content
+  @if $screen == port
+    @media only screen and (max-width: 56.25em)
+      @content
+  @if $screen == land
+    @media only screen and (max-width: 75em)
+      @content
+  @if $screen == desktop
+    @media only screen and (max-width: 112.5em)
+      @content
+
+@mixin respondCustom($bp)
+  @media only screen and (max-width: $bp)
+    @content
+
+@mixin rotateRespond($screen)
+  @if $screen == phone
+    @media only screen and (min-width: 0em)
+      @content
+  @if $screen == port
+    @media only screen and (min-width: 37.5em)
+      @content
+  @if $screen == land
+    @media only screen and (min-width: 56.25em)
+      @content
+  @if $screen == desktop
+    @media only screen and (min-width: 75em)
+      @content
+
+@mixin rotateRespondCustom($bp)
+  @media only screen and (min-width: $bp)
+    @content

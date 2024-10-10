@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.5">
+  <title>News Website</title>
+  <link rel="stylesheet" href="assets/layout/css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Trirong:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+  
+  <header class="header">
+
+    <div class="container-box header__wrapper">
+      <ul class="header__list">
+        <li class="header__listitem">Barelias, Lebanon 28</li>
+        <li class="header__listitem">Tuesday 1 Octobor 2024 / 4:10</li>
+        <li class="header__listitem">Log in</li>
+        <li class="header__listitem">Menu item</li>
+      </ul>
+      <ul class="header__socials">
+        <li class="header__socials--listitem">
+          <a href="#">
+            <svg class="header__socials--icon">
+              <use xlink:href="assets/layout/icons/sprite.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="header__socials--listitem">
+          <a href="#">
+            <svg class="header__socials--icon">
+              <use xlink:href="assets/layout/icons/sprite.svg#icon-x"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="header__socials--listitem">
+          <a href="#">
+            <svg class="header__socials--icon">
+              <use xlink:href="assets/layout/icons/sprite.svg#icon-whatsapp"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="header__socials--listitem">
+          <a href="#">
+            <svg class="header__socials--icon">
+              <use xlink:href="assets/layout/icons/sprite.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+  </header>
+
+  <section class="logo">
+    <h1 class="logo__heading"><span class="logo__part1">News</span><span class="logo__part2">Website</span></h1>
+  </section>
+
+  <main class="main-content">
+
+    <section class="slider topnews">
+      <div class="container-box slider__wrapper topnews__wrapper">
+        <div class="slider__prev topnews__arrow--box">
+          <i class="fas fa-arrow-circle-left | topnews__icon"></i>
+        </div>
+
+        <div class="slider__elements topnews__elements">
+
+          <div class="slider__element topnews__element">
+            <div class="topnews__img">
+              <img src="assets/layout/imgs/demo.jpg" alt="">
+            </div>
+            <div class="topnews__details">
+              <h2 class="topnews__tag">Tag</h2>
+              <h2 class="topnews__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique veniam facere deleniti quia, optiium soluta?</h2>
+              <h2 class="topnews__date">
+                <div class="topnews__date--icon"><i class="fas fa-clock"></i></div>
+                <div class="topnews__date--text">October 15, 2024, 3:30 PM</div>
+              </h2>
+            </div>
+          </div>
+
+          <div class="slider__element topnews__element">
+            <div class="topnews__img">
+              <img src="assets/layout/imgs/demo.jpg" alt="">
+            </div>
+            <div class="topnews__details">
+              <h2 class="topnews__tag">Tag</h2>
+              <h2 class="topnews__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique veniam facere deleniti quia, optiium soluta?</h2>
+              <h2 class="topnews__date">
+                <div class="topnews__date--icon"><i class="fas fa-clock"></i></div>
+                <div class="topnews__date--text">October 15, 2024, 3:30 PM</div>
+              </h2>
+            </div>
+          </div>
+
+          <div class="slider__element topnews__element">
+            <div class="topnews__img">
+              <img src="assets/layout/imgs/demo.jpg" alt="">
+            </div>
+            <div class="topnews__details">
+              <h2 class="topnews__tag">Tag</h2>
+              <h2 class="topnews__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique veniam facere deleniti quia, optiium soluta?</h2>
+              <h2 class="topnews__date">
+                <div class="topnews__date--icon"><i class="fas fa-clock"></i></div>
+                <div class="topnews__date--text">October 15, 2024, 3:30 PM</div>
+              </h2>
+            </div>
+          </div>
+          
+        </div>
+
+        <div class="slider__next topnews__arrow--box">
+          <i class="fas fa-arrow-circle-right | topnews__icon"></i>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu">
+      <div class="container-box">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a href="#" class="menu__link menu__link--active">Home</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Menu item</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link"><span>Menu item</span> <i class="fas fa-sort-down"></i></a>
+            <div class="menu__dropdown">
+              <ul class="menu__dropdown--list">
+                <li class="menu__dropdown--item">
+                  <a href="#" class="menu__dropdown--link">
+                    <span>Dropdown Link</span>
+                    <i class="fas fa-angle-right"></i>
+                  </a>
+                </li>
+                <li class="menu__dropdown--item">
+                  <a href="#" class="menu__dropdown--link">
+                    <span>Dropdown Link</span>
+                    <i class="fas fa-angle-right"></i>
+                  </a>
+                </li>
+                <li class="menu__dropdown--item">
+                  <a href="#" class="menu__dropdown--link">
+                    <span>Dropdown Link</span>
+                    <i class="fas fa-angle-right"></i>
+                  </a>
+                </li>
+                <li class="menu__dropdown--item">
+                  <a href="#" class="menu__dropdown--link">
+                    <span>Dropdown Link</span>
+                    <i class="fas fa-angle-right"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Menu item</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link"><span>Menu item</span> <i class="fas fa-sort-down"></i></a>
+            <div class="menu__dropdown">
+              <ul class="menu__dropdown--list">
+                <li class="menu__dropdown--item">
+                  <a href="#" class="menu__dropdown--link">
+                    <span>Dropdown Link</span>
+                    <i class="fas fa-angle-right"></i>
+                  </a>
+                </li>
+                <li class="menu__dropdown--item">
+                  <a href="#" class="menu__dropdown--link">
+                    <span>Dropdown Link</span>
+                    <i class="fas fa-angle-right"></i>
+                  </a>
+                </li>
+                <li class="menu__dropdown--item">
+                  <a href="#" class="menu__dropdown--link">
+                    <span>Dropdown Link</span>
+                    <i class="fas fa-angle-right"></i>
+                  </a>
+                </li>
+                <li class="menu__dropdown--item">
+                  <a href="#" class="menu__dropdown--link">
+                    <span>Dropdown Link</span>
+                    <i class="fas fa-angle-right"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link"><span>Menu item</span> <i class="fas fa-sort-down"></i></a>
+            <div class="menu__dropdown">
+              <ul class="menu__dropdown--list">
+                <li class="menu__dropdown--item">
+                  <a href="#" class="menu__dropdown--link">
+                    <span>Dropdown Link</span>
+                    <i class="fas fa-angle-right"></i>
+                  </a>
+                </li>
+                <li class="menu__dropdown--item">
+                  <a href="#" class="menu__dropdown--link">
+                    <span>Dropdown Link</span>
+                    <i class="fas fa-angle-right"></i>
+                  </a>
+                </li>
+                <li class="menu__dropdown--item">
+                  <a href="#" class="menu__dropdown--link">
+                    <span>Dropdown Link</span>
+                    <i class="fas fa-angle-right"></i>
+                  </a>
+                </li>
+                <li class="menu__dropdown--item">
+                  <a href="#" class="menu__dropdown--link">
+                    <span>Dropdown Link</span>
+                    <i class="fas fa-angle-right"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Menu item</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="welcome">
+
+      <div class="welcome__overlay">
+        <img src="assets/layout/imgs/demo.jpg" alt="">
+        
+        
+        <div class="container-box welcome__box">
+          <div class="welcome__grid--box welcome__grid--box--1">
+            <div class="welcome__grid--img">
+              <img src="assets/layout/imgs/demo-2.jpg" alt="">
+            </div>
+            <div class="welcome__grid--info">
+              <div class="welcome__grid--info--tag">World</div>
+              <h2 class="welcome__grid--info--title">Lorem ipsum dolor sit amet.</h2>
+              <div class="welcome__grid--info--other">
+                <div class="welcome__grid--info--date"><i class="fas fa-clock"></i> 15 Oct 2024</div>
+                <div class="welcome__grid--info--comments"><i class="fas fa-comments"></i> 23</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="welcome__grid--box welcome__grid--box--2">
+            <div class="welcome__grid--img">
+              <img src="assets/layout/imgs/demo-2.jpg" alt="">
+            </div>
+            <div class="welcome__grid--info">
+              <div class="welcome__grid--info--tag">World</div>
+              <h2 class="welcome__grid--info--title">Lorem ipsum dolor sit amet.</h2>
+              <div class="welcome__grid--info--other">
+                <div class="welcome__grid--info--date"><i class="fas fa-clock"></i> 15 Oct 2024</div>
+                <div class="welcome__grid--info--comments"><i class="fas fa-comments"></i> 23</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="welcome__grid--box welcome__grid--box--3">
+            <div class="welcome__grid--img">
+              <img src="assets/layout/imgs/demo-4.jpg" alt="">
+            </div>
+            <div class="welcome__grid--info">
+              <div class="welcome__grid--info--tag">World</div>
+              <h2 class="welcome__grid--info--title">Lorem ipsum dolor sit amet.</h2>
+              <p class="welcome__grid--info--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ratione commodi ut autem corrupti adipisci dolorem maxime ad repellat id.</p>
+              <div class="welcome__grid--info--other">
+                <div class="welcome__grid--info--date"><i class="fas fa-clock"></i> 15 Oct 2024</div>
+                <div class="welcome__grid--info--comments"><i class="fas fa-comments"></i> 23</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="welcome__grid--box welcome__grid--box--4">
+            <div class="welcome__grid--img">
+              <img src="assets/layout/imgs/demo-4.jpg" alt="">
+            </div>
+            <div class="welcome__grid--info">
+              <div class="welcome__grid--info--tag">World</div>
+              <h2 class="welcome__grid--info--title">Lorem ipsum dolor sit amet.</h2>
+              <p class="welcome__grid--info--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ratione commodi ut autem corrupti adipisci dolorem maxime ad repellat id.</p>
+              <div class="welcome__grid--info--other">
+                <div class="welcome__grid--info--date"><i class="fas fa-clock"></i> 15 Oct 2024</div>
+                <div class="welcome__grid--info--comments"><i class="fas fa-comments"></i> 23</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="welcome__grid--box welcome__grid--box--5">
+            <div class="welcome__grid--img">
+              <img src="assets/layout/imgs/demo-2.jpg" alt="">
+            </div>
+            <div class="welcome__grid--info">
+              <div class="welcome__grid--info--tag">World</div>
+              <h2 class="welcome__grid--info--title">Lorem ipsum dolor sit amet.</h2>
+              <div class="welcome__grid--info--other">
+                <div class="welcome__grid--info--date"><i class="fas fa-clock"></i> 15 Oct 2024</div>
+                <div class="welcome__grid--info--comments"><i class="fas fa-comments"></i> 23</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="welcome__grid--box welcome__grid--box--6">
+            <div class="welcome__grid--img">
+              <img src="assets/layout/imgs/demo-2.jpg" alt="">
+            </div>
+            <div class="welcome__grid--info">
+              <div class="welcome__grid--info--tag">World</div>
+              <h2 class="welcome__grid--info--title">Lorem ipsum dolor sit amet.</h2>
+              <div class="welcome__grid--info--other">
+                <div class="welcome__grid--info--date"><i class="fas fa-clock"></i> 15 Oct 2024</div>
+                <div class="welcome__grid--info--comments"><i class="fas fa-comments"></i> 23</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      
+      
+    </section>
+
+    <div class="main-content__grid">
+
+      <div class="main-content__grid--left">
+    
+        <section class="popular theme-layout__1">
+          <div class="container-box">
+            <div class="section__title theme-layout__1--section--title">popular</div>
+          
+            <div class="popular__wrapper theme-layout__1--elements--wrapper">
+    
+              <div class="popular__box theme-layout__1--box">
+                <img src="assets/layout/imgs/demo-3.jpg" class="popular__img theme-layout__1--img" alt="">
+                <div class="popular__info theme-layout__1--info--holder">
+                  <div class="popular__tag theme-layout__1--tag">Business</div>
+                  <h2 class="popular__title theme-layout__1--title">Tetur adipisicing elit. Quis, sed!</h2>
+                  <div class="popular__date theme-layout__1--date"><i class="fas fa-clock | theme-layout__1--icon"></i> 15 Oct 2024</div>
+                </div>
+              </div>
+              <div class="popular__box theme-layout__1--box">
+                <img src="assets/layout/imgs/demo-4.jpg" class="popular__img theme-layout__1--img" alt="">
+                <div class="popular__info theme-layout__1--info--holder">
+                  <div class="popular__tag theme-layout__1--tag">Business</div>
+                  <h2 class="popular__title theme-layout__1--title">Tetur adipisicing elit. Quis, sed!</h2>
+                  <div class="popular__date theme-layout__1--date"><i class="fas fa-clock | theme-layout__1--icon"></i> 15 Oct 2024</div>
+                </div>
+              </div>
+              <div class="popular__box theme-layout__1--box">
+                <img src="assets/layout/imgs/demo-2.jpg" class="popular__img theme-layout__1--img" alt="">
+                <div class="popular__info theme-layout__1--info--holder">
+                  <div class="popular__tag theme-layout__1--tag">Business</div>
+                  <h2 class="popular__title theme-layout__1--title">Tetur adipisicing elit. Quis, sed!</h2>
+                  <div class="popular__date theme-layout__1--date"><i class="fas fa-clock | theme-layout__1--icon"></i> 15 Oct 2024</div>
+                </div>
+              </div>
+              <div class="popular__box theme-layout__1--box">
+                <img src="assets/layout/imgs/demo.jpg" class="popular__img theme-layout__1--img" alt="">
+                <div class="popular__info theme-layout__1--info--holder">
+                  <div class="popular__tag theme-layout__1--tag">Business</div>
+                  <h2 class="popular__title theme-layout__1--title">Tetur adipisicing elit. Quis, sed!</h2>
+                  <div class="popular__date theme-layout__1--date"><i class="fas fa-clock | theme-layout__1--icon"></i> 15 Oct 2024</div>
+                </div>
+              </div>
+              <div class="popular__box theme-layout__1--box">
+                <img src="assets/layout/imgs/demo-2.jpg" class="popular__img theme-layout__1--img" alt="">
+                <div class="popular__info theme-layout__1--info--holder">
+                  <div class="popular__tag theme-layout__1--tag">Business</div>
+                  <h2 class="popular__title theme-layout__1--title">Tetur adipisicing elit. Quis, sed!</h2>
+                  <div class="popular__date theme-layout__1--date"><i class="fas fa-clock | theme-layout__1--icon"></i> 15 Oct 2024</div>
+                </div>
+              </div>
+              <div class="popular__box theme-layout__1--box">
+                <img src="assets/layout/imgs/demo-4.jpg" class="popular__img theme-layout__1--img" alt="">
+                <div class="popular__info theme-layout__1--info--holder">
+                  <div class="popular__tag theme-layout__1--tag">Business</div>
+                  <h2 class="popular__title theme-layout__1--title">Tetur adipisicing elit. Quis, sed!</h2>
+                  <div class="popular__date theme-layout__1--date"><i class="fas fa-clock | theme-layout__1--icon"></i> 15 Oct 2024</div>
+                </div>
+              </div>
+              <div class="popular__box theme-layout__1--box">
+                <img src="assets/layout/imgs/demo-3.jpg" class="popular__img theme-layout__1--img" alt="">
+                <div class="popular__info theme-layout__1--info--holder">
+                  <div class="popular__tag theme-layout__1--tag">Business</div>
+                  <h2 class="popular__title theme-layout__1--title">Tetur adipisicing elit. Quis, sed!</h2>
+                  <div class="popular__date theme-layout__1--date"><i class="fas fa-clock | theme-layout__1--icon"></i> 15 Oct 2024</div>
+                </div>
+              </div>
+              <div class="popular__box theme-layout__1--box">
+                <img src="assets/layout/imgs/demo.jpg" class="popular__img theme-layout__1--img" alt="">
+                <div class="popular__info theme-layout__1--info--holder">
+                  <div class="popular__tag theme-layout__1--tag">Business</div>
+                  <h2 class="popular__title theme-layout__1--title">Tetur adipisicing elit. Quis, sed!</h2>
+                  <div class="popular__date theme-layout__1--date"><i class="fas fa-clock | theme-layout__1--icon"></i> 15 Oct 2024</div>
+                </div>
+              </div>
+              <div class="popular__box theme-layout__1--box">
+                <img src="assets/layout/imgs/demo-3.jpg" class="popular__img theme-layout__1--img" alt="">
+                <div class="popular__info theme-layout__1--info--holder">
+                  <div class="popular__tag theme-layout__1--tag">Business</div>
+                  <h2 class="popular__title theme-layout__1--title">Tetur adipisicing elit. Quis, sed!</h2>
+                  <div class="popular__date theme-layout__1--date"><i class="fas fa-clock | theme-layout__1--icon"></i> 15 Oct 2024</div>
+                </div>
+              </div>
+    
+            </div>
+          </div>
+        </section>
+    
+        <section class="articles theme-layout__2">
+          <div class="container-box">
+            <div class="section__title theme-layout__2--section--title">articles</div>
+          
+            <div class="articles__wrapper theme-layout__2--elements--wrapper">
+    
+              <div class="articles__box theme-layout__2--box">
+                <div class="theme-layout__2--img--box">
+                  <img src="assets/layout/imgs/demo-2.jpg" class="articles__img theme-layout__2--img" alt="">
+                </div>
+                <div class="articles__info theme-layout__2--info--holder">
+                  <div class="articles__tag theme-layout__2--tag">Health</div>
+                  <h2 class="articles__title theme-layout__2--title">Tetur adipisicing elit. Quis, sed!</h2>
+                  <p class="articles__title theme-layout__2--text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad obcaecati ratione laboriosam magni?</p>
+                  <div class="articles__date theme-layout__2--date"><i class="fas fa-clock | theme-layout__2--icon"></i> 15 Oct 2024</div>
+                </div>
+              </div>
+              <div class="articles__box theme-layout__2--box">
+                <div class="theme-layout__2--img--box">
+                  <img src="assets/layout/imgs/demo-2.jpg" class="articles__img theme-layout__2--img" alt="">
+                </div>
+                <div class="articles__info theme-layout__2--info--holder">
+                  <div class="articles__tag theme-layout__2--tag">Health</div>
+                  <h2 class="articles__title theme-layout__2--title">Tetur adipisicing elit. Quis, sed!</h2>
+                  <p class="articles__title theme-layout__2--text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad obcaecati ratione laboriosam magni?</p>
+                  <div class="articles__date theme-layout__2--date"><i class="fas fa-clock | theme-layout__2--icon"></i> 15 Oct 2024</div>
+                </div>
+              </div>
+              <div class="articles__box theme-layout__2--box">
+                <div class="theme-layout__2--img--box">
+                  <img src="assets/layout/imgs/demo-2.jpg" class="articles__img theme-layout__2--img" alt="">
+                </div>
+                <div class="articles__info theme-layout__2--info--holder">
+                  <div class="articles__tag theme-layout__2--tag">Sport</div>
+                  <h2 class="articles__title theme-layout__2--title">Tetur adipisicing elit. Quis, sed!</h2>
+                  <p class="articles__title theme-layout__2--text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad obcaecati ratione laboriosam magni?</p>
+                  <div class="articles__date theme-layout__2--date"><i class="fas fa-clock | theme-layout__2--icon"></i> 15 Oct 2024</div>
+                </div>
+              </div>
+              <div class="articles__box theme-layout__2--box">
+                <div class="theme-layout__2--img--box">
+                  <img src="assets/layout/imgs/demo-2.jpg" class="articles__img theme-layout__2--img" alt="">
+                </div>
+                <div class="articles__info theme-layout__2--info--holder">
+                  <div class="articles__tag theme-layout__2--tag">Health</div>
+                  <h2 class="articles__title theme-layout__2--title">Tetur adipisicing elit. Quis, sed!</h2>
+                  <p class="articles__title theme-layout__2--text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad obcaecati ratione laboriosam magni?</p>
+                  <div class="articles__date theme-layout__2--date"><i class="fas fa-clock | theme-layout__2--icon"></i> 15 Oct 2024</div>
+                </div>
+              </div>
+    
+            </div>
+          </div>
+        </section>
+    
+        <section class="gallery theme-layout__3">
+          <div class="container-box">
+            <div class="section__title theme-layout__3--section--title">gallery</div>
+          
+            <div class="gallery__wrapper theme-layout__3--elements--wrapper">
+    
+              <div class="gallery__box theme-layout__3--box">
+                <div class="theme-layout__3--img--box">
+                  <img src="assets/layout/imgs/demo-3.jpg" class="gallery__img theme-layout__3--img" alt="">
+                </div>
+                <div class="gallery__info theme-layout__3--info--holder">
+                  <p class="gallery__title theme-layout__3--text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.gni?</p>
+                </div>
+              </div>
+              <div class="gallery__box theme-layout__3--box">
+                <div class="theme-layout__3--img--box">
+                  <img src="assets/layout/imgs/demo-3.jpg" class="gallery__img theme-layout__3--img" alt="">
+                </div>
+                <div class="gallery__info theme-layout__3--info--holder">
+                  <p class="gallery__title theme-layout__3--text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.gni?</p>
+                </div>
+              </div>
+              <div class="gallery__box theme-layout__3--box">
+                <div class="theme-layout__3--img--box">
+                  <img src="assets/layout/imgs/demo-3.jpg" class="gallery__img theme-layout__3--img" alt="">
+                </div>
+                <div class="gallery__info theme-layout__3--info--holder">
+                  <p class="gallery__title theme-layout__3--text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.gni?</p>
+                </div>
+              </div>
+              <div class="gallery__box theme-layout__3--box">
+                <div class="theme-layout__3--img--box">
+                  <img src="assets/layout/imgs/demo-3.jpg" class="gallery__img theme-layout__3--img" alt="">
+                </div>
+                <div class="gallery__info theme-layout__3--info--holder">
+                  <p class="gallery__title theme-layout__3--text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.gni?</p>
+                </div>
+              </div>
+              <div class="gallery__box theme-layout__3--box">
+                <div class="theme-layout__3--img--box">
+                  <img src="assets/layout/imgs/demo-3.jpg" class="gallery__img theme-layout__3--img" alt="">
+                </div>
+                <div class="gallery__info theme-layout__3--info--holder">
+                  <p class="gallery__title theme-layout__3--text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.gni?</p>
+                </div>
+              </div>
+              <div class="gallery__box theme-layout__3--box">
+                <div class="theme-layout__3--img--box">
+                  <img src="assets/layout/imgs/demo-3.jpg" class="gallery__img theme-layout__3--img" alt="">
+                </div>
+                <div class="gallery__info theme-layout__3--info--holder">
+                  <p class="gallery__title theme-layout__3--text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.gni?</p>
+                </div>
+              </div>
+    
+            </div>
+    
+          </div>
+        </section>
+
+      </div>
+
+      <div class="main-content__grid--right">
+
+        <section class="slider mostviewed">
+          <div class="container-box">
+            <div class="section__title mostviewed__section__title">most viewed</div>
+
+            <div class="mostviewed__wrapper slider__wrapper">
+
+              <div class="slider__prev mostviewed__arrow--box mostviewed__arrow--box--prev">
+                <i class="fas fa-angle-left | mostviewed__icon"></i>
+              </div>
+  
+              <div class="slider__elements mostviewed__elements">
+  
+                <div class="slider__element mostviewed__element">
+                  <div class="mostviewed__img--box">
+                    <img src="assets/layout/imgs/demo.jpg" class="mostviewed__img" alt="">
+                  </div>
+                  <div class="mostviewed__details">
+                    <h2 class="mostviewed__tag">Tag</h2>
+                    <h2 class="mostviewed__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique veniam facere deleniti quia, optiium soluta?</h2>
+                    <h2 class="mostviewed__date">
+                      <div class="mostviewed__date--icon"><i class="fas fa-clock"></i></div>
+                      <div class="mostviewed__date--text">October 15, 2024, 3:30 PM</div>
+                    </h2>
+                  </div>
+                </div>
+
+                <div class="slider__element mostviewed__element">
+                  <div class="mostviewed__img--box">
+                    <img src="assets/layout/imgs/demo-2.jpg" class="mostviewed__img" alt="">
+                  </div>
+                  <div class="mostviewed__details">
+                    <h2 class="mostviewed__tag">Test</h2>
+                    <h2 class="mostviewed__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, sint!?</h2>
+                    <h2 class="mostviewed__date">
+                      <div class="mostviewed__date--icon"><i class="fas fa-clock"></i></div>
+                      <div class="mostviewed__date--text">October 15, 2024, 3:30 PM</div>
+                    </h2>
+                  </div>
+                </div>
+
+                <div class="slider__element mostviewed__element">
+                  <div class="mostviewed__img--box">
+                    <img src="assets/layout/imgs/demo-3.jpg" class="mostviewed__img" alt="">
+                  </div>
+                  <div class="mostviewed__details">
+                    <h2 class="mostviewed__tag">Sport</h2>
+                    <h2 class="mostviewed__text">Lorem ipsum, dolor elit. Necessitatibus, sint!?</h2>
+                    <h2 class="mostviewed__date">
+                      <div class="mostviewed__date--icon"><i class="fas fa-clock"></i></div>
+                      <div class="mostviewed__date--text">October 15, 2024, 3:30 PM</div>
+                    </h2>
+                  </div>
+                </div>
+                
+              </div>
+  
+              <div class="slider__next mostviewed__arrow--box mostviewed__arrow--box--next">
+                <i class="fas fa-angle-right | mostviewed__icon"></i>
+              </div>
+
+            </div>
+
+          </div>
+        </section>
+
+        <section class="lifestyle">
+          <div class="container-box">
+            <div class="section__title lifestyle__section__title">life style</div>
+
+            <div class="lifestyle__wrapper">
+
+              <div class="lifestyle__box">
+                <div class="lifestyle__img--box">
+                  <img src="assets/layout/imgs/demo-2.jpg" class="lifestyle__img" alt="">
+                </div>
+                <div class="lifestyle__info--holder">
+                  <h2 class="lifestyle__title">Tetur adipisicing elit. Quis, sed!</h2>
+                  <p class="lifestyle__text">Tetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing. Quis, sed!</p>
+                  <div class="lifestyle__date"><i class="fas fa-clock | lifestyle__icon"></i> 15 Oct 2024</div>
+                </div>
+              </div>
+              <div class="lifestyle__box">
+                <div class="lifestyle__img--box">
+                  <img src="assets/layout/imgs/demo.jpg" class="lifestyle__img" alt="">
+                </div>
+                <div class="lifestyle__info--holder">
+                  <h2 class="lifestyle__title">Tetur adipisicing elit. Quis, sed!</h2>
+                  <p class="lifestyle__text">Tetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing. Quis, sed!</p>
+                  <div class="lifestyle__date"><i class="fas fa-clock | lifestyle__icon"></i> 15 Oct 2024</div>
+                </div>
+              </div>
+              <div class="lifestyle__box">
+                <div class="lifestyle__img--box">
+                  <img src="assets/layout/imgs/demo-3.jpg" class="lifestyle__img" alt="">
+                </div>
+                <div class="lifestyle__info--holder">
+                  <h2 class="lifestyle__title">Tetur adipisicing elit. Quis, sed!</h2>
+                  <p class="lifestyle__text">Tetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing. Quis, sed!</p>
+                  <div class="lifestyle__date"><i class="fas fa-clock | lifestyle__icon"></i> 15 Oct 2024</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+      </div>
+
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container-box">
+      <div class="footer__wrapper">
+        <div class="footer__lists">
+          <ul class="footer__list">
+            <li class="footer__item footer__item--title">About</li>
+            <li class="footer__item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, temporibus!</li>
+            <li class="footer__item">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque ipsam ipsa fugit possimus blanditiis debitis.</li>
+            <li class="footer__item footer__item--sub--title">Connect with us</li>
+            <li class="footer__item">
+              <ul class="footer__socials">
+                <li class="footer__socials--item">
+                  <i class="fab fa-facebook | footer__socials--icon"></i>
+                </li>
+                <li class="footer__socials--item">
+                  <i class="fab fa-instagram-square | footer__socials--icon"></i>
+                </li>
+                <li class="footer__socials--item">
+                  <i class="fab fa-whatsapp-square | footer__socials--icon"></i>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="footer__list footer__list--cat">
+            <ul>
+              <li class="footer__item footer__item--title">Categories</li>
+              <li class="footer__item footer__item--link">Politics</li>
+              <li class="footer__item footer__item--link">Business</li>
+              <li class="footer__item footer__item--link">Technology</li>
+              <li class="footer__item footer__item--link">Health</li>
+              <li class="footer__item footer__item--link">Culture</li>
+              <li class="footer__item footer__item--link">Science</li>
+              <li class="footer__item footer__item--link">Education</li>
+            </ul>
+            <ul>
+              <li class="footer__item footer__item--title">Trending</li>
+              <li class="footer__item footer__item--link">Breaking News</li>
+              <li class="footer__item footer__item--link">Entertainment</li>
+              <li class="footer__item footer__item--link">Celebrities</li>
+              <li class="footer__item footer__item--link">Sports</li>
+              <li class="footer__item footer__item--link">Fashion</li>
+            </ul>
+          </ul>
+          <ul class="footer__list">
+            <li class="footer__item footer__item--title">More</li>
+            <li class="footer__item footer__item--link">About</li>
+            <li class="footer__item footer__item--link">Careers</li>
+            <li class="footer__item footer__item--link">Contact us</li>
+            <li class="footer__item footer__item--link">Owner</li>
+          </ul>
+        </div>
+        <div class="footer__logo">
+          <h1 class="logo__heading"><span class="logo__part1">News</span><span class="logo__part2">Website</span></h1>
+        </div>
+        <div class="footer__copyright">
+          <p class="footer__copyright--text">© 2024 NewsWebsite. All rights reserved.</p>
+          <ul class="footer__copyright--list">
+            <li class="footer__copyright--list--item footer__item--link">Privacy Policy</li>
+            <li class="footer__copyright--list--item footer__item--link">Terms</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="assets/layout/js/bundle.js"></script>
+
+</body>
+</html>

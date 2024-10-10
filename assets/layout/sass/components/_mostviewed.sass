@@ -1,0 +1,76 @@
+$main-color: $theme-color-4
+  
+.mostviewed__section__title
+  &::after
+    background-color: $main-color
+  
+.mostviewed
+  margin-bottom: 5rem
+  &__wrapper
+    position: relative
+  &__arrow--box
+    cursor: pointer
+    top: 0
+    height: 100%
+    width: 3rem
+    position: absolute
+    display: flex
+    align-items: center
+    justify-content: center
+    background-image: linear-gradient(to bottom, rgba($main-color, .8), rgba($main-color, .6))
+    z-index: 2
+    &:hover
+      background-image: linear-gradient(to bottom, rgba($main-color), rgba($main-color, .8))
+      .mostviewed__icon
+        color: #fff
+  &__arrow--box--prev
+    left: 0
+  &__arrow--box--next
+    right: 0
+  &__icon
+    font-size: 2.5rem
+    color: #fff
+  &__elements
+    position: relative
+    &::before
+      content: ""
+      position: absolute
+      inset: 0
+      background-image: linear-gradient(to top, rgba($black, .6), rgba($black, .1))
+      z-index: 1
+  &__element
+    height: 28rem
+  &__img--box
+    width: 100%
+    height: 100%
+  &__img
+    width: 100%
+    height: 100%
+    object-fit: cover
+  &__details
+    position: absolute
+    z-index: 3
+    bottom: 0
+    left: 3rem
+    padding-left: 1.5rem
+    padding-bottom: 3rem
+    width: calc(100% - 6rem)
+  &__tag
+    background-color: $main-color
+    padding: 1rem 2.2rem
+    width: max-content
+    color: #fff
+    margin-bottom: 1.5rem
+  &__text
+    color: #eee
+    font-size: 1.4rem
+    font-weight: 500
+    margin-bottom: 1.5rem
+  &__date
+    display: flex
+    align-items: center
+    gap: 1rem
+    color: #ddd
+    font-weight: 400
+    &--icon
+    &--text
